@@ -1,0 +1,86 @@
+Servidores suspeitos
+--------------------
+    web10
+    web11
+    pecaproc
+    webproc1
+    eleicao
+
+Lista de atividades realizadas
+------------------------------
+[SS682789] Levantamento de Logs Aplicação e Acesso das aplicações hospedadas no srvweb10-trf1 referente ao Incidente de Segurança ocorrido dia 27/11/2020
+[SS682800] Levantamento de Logs Aplicação e Acesso das aplicações hospedadas no srvweb11-trf1 referente ao Incidente de Segurança ocorrido dia 27/11/2020
+[SS682805] Levantamento de Logs Aplicação e Acesso das aplicações hospedadas no pecaproc-trf1 referente ao Incidente de Segurança ocorrido dia 27/11/2020
+[SS682807] Levantamento de Logs Aplicação e Acesso das aplicações hospedadas no srvweproc1-trf1 referente ao Incidente de Segurança ocorrido dia 27/11/2020
+[SS682812] Levantamento de Logs Aplicação e Acesso das aplicações hospedadas no srveleicao-trf1 referente ao Incidente de Segurança ocorrido dia 27/11/2020
+[SS682820] Forneciemnto dos Logs dos servidores suspeitos de invasão para equipe de Cyber Segurança do Exército referente ao Incidente de Segurança ocorrido dia 27/11/2020
+[SS682823] Investigação Logs acesso detectar invasão
+[SS682827] Identificação do uso de ferramenta SQLMap no srvweb11-trf1
+[SS682834] Extração de trechos de logs de acesso com evidencias de SQL Injection
+[SS682837] Ajuste de parâmetros JVM serviço Sonar no host srvsonar-trf1
+[SS682839] Incremento LVM host srvbd35-trf1 - SGBD Postgres Sonar
+[SS682871] Verificação Processos em execução e agendamentos Crontab nos Hosts PJe 1G em ambiente de PRD
+[SS682873] Verificação Processos em execução e agendamentos Crontab nos Hosts PJe 2G em ambiente de PRD
+[SS682875] Verificação Processos em execução e agendamentos Crontab nos Hosts Sei ambiente PRD
+[SS682876] Levantamento de pontos de montagem (LOCAL e NFS) utilizados nos servidores suspeitos srvweb10 e srvweb11
+[SS682878] Levantamento de pontos de montagem (LOCAL e NFS) utilizados nos servidores suspeitos srvpecaproc
+[SS682881] Levantamento de pontos de montagem (LOCAL e NFS) utilizados nos servidores suspeitos webproc1
+[SS682883] Levantamento de pontos de montagem (LOCAL e NFS) utilizados nos servidores suspeitos eleicao
+[SS682884] Montagem NFS 172.16.3.117:/fs_arquivos_codigo_php_prd_trf1/ no host srvwebrepo-trf1 (172.16.1.143)
+[SS682886] Levantamento de arquivos e pastas armazenados no NFS 172.16.3.117:/fs_arquivos_codigo_php_prd_trf1/ (web10 e web11) e que estão publicadas na internet
+[SS682891] Desligar Apaches PJe 1g para ajuste dos DataSources Wildfly utilizando Security Constraint
+[SS682892] Desligar Apaches PJe 2g para ajuste dos DataSources Wildfly utilizando Security Constraint
+[SS682903] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe 1G - Consulta Pública
+[SS682908] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe 1G - Migrador
+[SS682919] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe 1G - MNI
+[SS682926] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe 1G - Prevenção
+[SS682934] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe 1G - Quartz
+[SS682939] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe 1G - Usuário Final
+[SS682941] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe 2G - Consulta Pública
+[SS682943] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe 2G - Migrador
+[SS682946] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe 2G - MNI
+[SS682948] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe 2G - Prevenção
+[SS682950] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe 2G - Quartz
+[SS682952] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe 2G - Usuário Final
+[SS682733] Configuração de Links simbólicos instâncias Prevenção 1G
+[SS682954] Criação de script Shell para ajuste de links simbólicos referente a localização da pasta Lib na instância Wildfly ambiente PRD PJe
+[SS682960] Ajuste de permissão na pasta /pje_bin e /opt/Wildfly
+
+[SS683209] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe HML 1G - Consulta Pública
+    srvpjehml1gcp1
+    srvpjehml1gcp2
+[SS683259] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe HML 1G - Homologação Geral
+    srvpjehml1gjb01
+    srvpjehml1gjb02
+[SS683264] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe HML 1G - Master CNJ
+    srvpjehml1gjb11
+    srvpjehml1gjb12
+[SS683271] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe HML 1G - Outros Tribunais
+    srvpjehml1gjb21
+    srvpjehml1gjb22
+[SS683274] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe HML 1G - MNI
+    srvpjehml1gmni1
+    srvpjehml1gmni2
+[SS683277] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe HML 1G - Prevenção
+    srvpjehml1gprv
+[SS683281] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe HML 1G - Quartz
+    srvpjehml1gqtz
+[SS683287] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe HML 2G - Consulta Pública
+    srvpjehml2gcp1
+    srvpjehml2gcp2
+[SS683295] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe HML 2G - Homologação Geral
+    srvpjehml2gjb01
+    srvpjehml2gjb02
+[SS683302] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe HML 2G - Master CNJ
+    srvpjehml2gjb11
+    srvpjehml2gjb12
+[SS683310] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe HML 2G - Outros Tribunais
+    srvpjehml2gjb21
+    srvpjehml2gjb22
+[SS683314] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe HML 2G - MNI
+    srvpjehml2gmni1
+    srvpjehml2gmni2
+[SS683319] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe HML 2G - Prevenção
+    srvpjehml2gprv
+[SS683322] Modificação de DataSources PostgreSQL alterando credencial de acesso usuário/senha por security domain PJe HML 2G - Quartz
+    srvpjehml2gqtz
